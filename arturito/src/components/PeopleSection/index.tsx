@@ -17,7 +17,7 @@ const columns = [
   {
     title: 'Height',
     dataIndex: 'height',
-    key: 'height',
+    key: 'Height',
   },
   {
     title: 'Films',
