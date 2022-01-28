@@ -21,8 +21,9 @@ const columns = [
   },
   {
     title: 'Films',
-    dataIndex: 'films.length',
+    dataIndex: 'films',
     key: 'films',
+    render: (films: string[]) => films.length,
   },
 ];
 
